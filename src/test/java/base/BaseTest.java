@@ -16,7 +16,7 @@ public class BaseTest {
         options.addArguments("--disable-gpu");
         
         driver = new EdgeDriver(options);
-        driver.manage().window().maximize();
+     //   driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
 
     }
